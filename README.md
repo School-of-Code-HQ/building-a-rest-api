@@ -23,7 +23,7 @@ The API will feature the following endpoints:
 | GET         | /api/quotes     |              |                        | An array of all quote objects | 200         | Gets all quotes                |
 | GET         | /api/quotes     | ?type=random |                        | A random quote object         | 200         | Gets a randomly selected quote |
 | POST        | /api/quotes     |              | {quoteText: (String) } | A newly created quote object  | 201         | Creates a new quote            |
-| PUT         | /api/quotes/:id |              | {quoteText: (String) } | An edited quote object        | 200         | Updates a quote                |
+| PATCH         | /api/quotes/:id |              | {quoteText: (String) } | An edited quote object        | 200         | Updates a quote                |
 | DELETE      | /api/quotes/:id |              |                        | A deleted quote object        | 200         | Deletes a quote                |
 
 <br>
